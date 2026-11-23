@@ -1,0 +1,27 @@
+{
+    "name": "li5121-salle15/banque",
+    "autoload": {
+        "psr-4": {
+            "Li5121Salle15\\Banque\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "brahim el fasely",
+            "email": "brahimelfasely@gmail.com"
+        }
+    ],
+    "require": {} ,
+
+"name": "demo/banque", 
+"description": "Exemple d'autochargement PSR-4 avec Composer", 
+"type": "project", 
+"require": { 
+"php": ">=8.0" 
+}, 
+"autoload": { 
+"psr-4": { 
+"Banque\\": "src/" 
+}
+}
+}
